@@ -3,7 +3,7 @@ def zero_matrix(matrix: list) -> list:
     cols = []
     for row in matrix:
         for j in range(len(row)):
-            if row[j] == 0 and (j not in cols):
+            if not row[j] and (j not in cols):
                 cols.append(j)
 
     for i in range(m):

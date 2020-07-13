@@ -13,8 +13,7 @@ def is_one_away(str1: str, str2: str) -> bool:
             count += 1 if a != b else 0
             if count > 1:
                 return False
-        if count <= 1:
-            return True
+        return True
 
     # insert/remove
     if len(str1) > len(str2):

@@ -18,4 +18,4 @@ def urlify2(mystr: str, length: int) -> str:
 
 
 if __name__ == '__main__':
-    print(urlify2('Mr 3ohn Smith', 13))
+    print(urlify2('Mr John Smith', 13))
