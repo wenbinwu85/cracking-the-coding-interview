@@ -12,9 +12,6 @@ def is_palidrome_permutaion(mystr: str) -> bool:
 
     return oddcount <= 1
 
-    
-
-
 
 if __name__ == '__main__':
     print(is_palidrome_permutaion('tacocat'))
@@ -23,4 +20,3 @@ if __name__ == '__main__':
     print(is_palidrome_permutaion('cat, o cat!'))
     print(is_palidrome_permutaion('taco cats'))
     print(is_palidrome_permutaion('hello world'))
-
